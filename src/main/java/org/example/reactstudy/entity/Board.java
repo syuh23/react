@@ -37,7 +37,6 @@ public class Board {
     private Date created = new Date();
 
     public void boardUpdate(BoardUpdateDto dto) {
-        // todo. null ???
         this.title = dto.getTitle();
         this.content = dto.getContent();
     }
